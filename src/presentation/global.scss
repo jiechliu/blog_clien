@@ -1,0 +1,87 @@
+$primary-color: #1e6fff;
+#app {
+    height: 100%;
+    background-color: #f6f6f6;
+}
+
+@media screen and (max-width: 600px) {
+  #app {
+    min-width: 800px;
+    width: 800px !important;
+  }
+}
+
+li {
+    list-style: none;
+}
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: $primary-color;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+    margin: 0;
+    padding: 0;
+}
+
+.spin {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-card {
+  border-radius: 5px !important;
+}
+
+.ant-modal-content {
+  border-radius: 5px;
+}
+
+.ant-btn-primary {
+  background: #0a6cff !important;
+
+  &:hover {
+    background: #338bff !important;
+  }
+}
+
+.ant-btn {
+  border-radius: 3px;
+}

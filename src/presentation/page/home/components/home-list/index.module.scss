@@ -1,0 +1,54 @@
+.homeList {
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+    :global {
+        .ant-comment-actions {
+            font-size: 12px;
+
+            li {
+                margin-right: 16px;
+            }
+        }
+
+        .ant-comment-avatar {
+          margin-right: 25px;
+          img {
+            height: auto;
+          }
+        }
+
+        .ant-comment-inner {
+          padding-bottom: 0;
+        }
+    }
+
+    .title {
+        font-weight: bold;
+    }
+
+    .homeListImage {
+        img {
+            width: 100px;
+            margin-right: 10px;
+        }
+    }
+    
+    .tags {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .deleteBtn {
+        position: absolute;
+        top: 12px;
+        right: 20px;
+        color: #8A919F;
+
+        &:hover{
+            color: #1890ff;
+            background: #fff;
+        }
+    }
+}

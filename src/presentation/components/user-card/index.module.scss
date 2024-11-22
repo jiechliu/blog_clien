@@ -1,0 +1,34 @@
+.userCard {
+  .userCardContent {
+    width: 335px;
+    min-height: 222px;
+    color: black;
+  }
+
+  .num {
+      font-weight: bold;
+  }
+
+  :global {
+      .ant-space {
+          color: black;
+      }
+  }
+
+  .gold {
+    display: flex;
+    width: 335px;
+    margin: 0 1px;
+    background-color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+
+    .goldBalance {
+      font-size: 14px;
+      color: #666;
+      background: #f5f5f5;
+      padding: 1px 10px;
+      border-radius: 20px;
+    }
+  }
+}

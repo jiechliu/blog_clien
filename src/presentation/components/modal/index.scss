@@ -1,0 +1,66 @@
+.rfix-modal-confirm {
+  :global {
+    .ant-modal-content {
+      border-radius: 4px;
+
+      .ant-modal-body {
+        padding: 0;
+
+        .ant-modal-confirm-body {
+          .anticon {
+            padding: 13.5px 9.5px 13.5px 25.5px;
+            border-bottom: 1px solid #eef1f6;
+            margin-right: 0;
+          }
+        }
+      }
+
+      .ant-modal-confirm-title {
+        height: 22px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #122440;
+        line-height: 22px;
+        padding: 13.5px 0;
+        border-bottom: 1px solid #eef1f6;
+        box-sizing: content-box;
+      }
+
+      .ant-modal-confirm-content {
+        margin: 10px 24px 0;
+        color: #4A5970;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+      }
+
+      .ant-modal-confirm-btns {
+        margin: 24px;
+      }
+    }
+  }
+}
+
+.rfix-modal {
+  :global {
+    .ant-modal-content {
+      border-radius: 4px;
+    }
+    .ant-modal-header {
+      padding: 12px 24px;
+      line-height: 24px;
+      color: #122440;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    .ant-modal-footer {
+      border: none;
+      padding: 24px;
+    }
+    .ant-modal-confirm-btns {
+      margin: 24px;
+    }
+  }
+}

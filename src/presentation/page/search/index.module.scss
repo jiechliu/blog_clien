@@ -1,0 +1,12 @@
+.search {
+    width: 900px;
+    background-color: #fff;
+    padding: 5px 20px;
+
+    :global {
+      .ant-comment-avatar {
+        width: 48px;
+        margin-right: 3px;
+      }
+    }
+}

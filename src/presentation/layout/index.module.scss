@@ -1,0 +1,104 @@
+.layout {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+        width: 1370px;
+        height: 70px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            width: 51px;
+        }
+
+        .release {
+            width: 100px;
+            border-radius: 7px;
+        }
+
+        .login {
+            border-radius: 7px;
+        }
+
+        .avatar {
+            cursor: pointer;
+            background-color: #1890ff;
+        }
+
+      .mall {
+        cursor: pointer;
+        color: #666;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    :global {
+        .ant-layout-header {
+            background-color: #fff;
+            padding: 0;
+            height: 70px;
+        }
+    
+        .ant-layout-footer {
+            background-color: #252525;
+        }
+
+        .ant-layout-content {
+            min-height: auto;
+            flex: 1;
+            background: #f0f2f5;
+        }
+    }
+    
+    .headerSpace {
+        :global {
+            .ant-space-item {
+                display: flex;
+            }
+        }
+    }
+}
+
+:global {
+    .ant-popover-placement-bottom {
+        .ant-popover-inner-content {
+            padding: 0;
+
+            .ant-menu-item-only-child {
+                height: 30px;
+                line-height: 30px;
+                margin: 10px 0;
+                color: #606266;
+
+                &:hover {
+                    background-color: #ecf5ff;
+                    color: #66b1ff;
+                }
+            }
+        }  
+    }
+}
+
+.footerText {
+    color: rgba(255, 255,255,.6);
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+}
+
+/* 在小屏幕上应用的样式 */
+@media screen and (max-width: 600px) {
+  .header, .footer {
+    min-width: 800px;
+    width: 800px !important;
+  }
+}

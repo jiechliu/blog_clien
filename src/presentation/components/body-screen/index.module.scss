@@ -1,0 +1,12 @@
+.body {
+    width: 1370px;
+    margin: 20px auto;
+};
+
+/* 在小屏幕上应用的样式 */
+@media screen and (max-width: 600px) {
+  .body {
+    min-width: 800px;
+    width: 800px;
+  }
+}

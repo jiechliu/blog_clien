@@ -1,0 +1,73 @@
+.user {
+    :global {
+        .ant-tabs-nav-list {
+            background-color: #fff;
+            padding: 10px ;
+        }
+
+        .ant-tabs-tab {
+            margin: 0 !important;
+            padding-right: 130px !important;
+        }
+
+        .ant-tabs-tab-active {
+            background: rgba(24,144,255, .1);
+        }
+
+        .ant-tabs-ink-bar {
+            display: none;
+        }
+
+        .ant-form-item-label {
+            font-weight: bold;
+            
+            label {
+                font-size: 16px;
+            }
+        }
+
+        .ant-upload-list-text {
+            display: none;
+        }
+
+        .ant-card {
+            min-height: 539px;
+        }
+    }
+
+    .submitBtn {
+        display: block;
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+  .userUpload {
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      background: #000;
+      opacity: 0;
+      transition: all .3s;
+    }
+    &:hover {
+      &::after {
+        opacity: .5;
+      }
+    }
+  }
+
+  .border {
+    border: 2px solid transparent;
+  }
+
+  .activeBorder {
+    border: 2px solid #0a6cff;
+  }
+}

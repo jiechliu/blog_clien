@@ -1,0 +1,129 @@
+.userHeader {
+    background: url('https://blog-1304453302.cos.ap-guangzhou.myqcloud.com/%E2%80%94Pngtree%E2%80%943d%20geometric%20rhombus%20background%20vibrant_5580462.jpg');
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+
+    .userLogo {
+        width: 100%;
+        background-color: rgba(255, 255, 255, .5);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+
+        :global(.ant-space) {
+            margin-left: 10px;
+        }
+    }
+}
+
+.detailUser {
+    display: flex;
+    margin-top: 20px;
+
+    .userInfo {
+        width: 350px;
+
+        :global {
+            .ant-card-body {
+                padding: 15px !important;
+            }
+
+            .ant-divider {
+                margin: 12px 0 10px;
+            }
+
+            .ant-list-item-meta-content, .ant-list-item-meta-description {
+                font-size: 12px;
+            }
+
+            .ant-list-item-meta-title {
+                font-size: 12px;
+                margin-bottom: 0;
+            }
+
+            .ant-avatar {
+                width: 37px !important;
+                height: 37px !important;
+            }
+        }
+    }
+
+    .empty {
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        color: rgba(0, 0, 0, .5);
+    }
+
+    .moreBtn {
+        width: 100px;
+        border-radius: 5px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .detailUserLeft {
+        margin-right: 20px;
+    }
+
+    .package {
+        margin-bottom: 10px;
+
+        &:hover {
+            background-color: #f6f6f7;
+        }
+    }
+
+    :global {
+        .ant-tabs {
+            flex: 1;
+        }
+    }
+}
+.focusBtn {
+    text-align: center;
+    width: 70px;
+    height: 28px;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.headerFocusBtn {
+    font-size: 15px;
+    text-align: center;
+    width: 120px;
+    height: 41px;
+    padding: 0;
+    border-radius: 7px;
+}
+
+.hasFocusBtn {
+    color: #8a919f !important;
+    background-color: #f2f3f5 !important;
+    border: none !important;
+
+    &:hover {
+        border: none;
+        color: #8a919f;
+        background-color: #f2f3f5 !important;
+    }
+    :global(.ant-btn) {
+        &:hover {
+            color: #8a919f;
+            background: #f2f3f5 !important;
+        }
+    } 
+}
+
+.userAll {
+    width: 800px;
+
+    .userItem {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 1px;
+    }
+}

@@ -1,0 +1,60 @@
+.userGold {
+  display: flex;
+  gap: 20px;
+
+  .userGoldContent {
+    flex: 1;
+    background-color: #fff;
+
+    .breadcrumb {
+      padding: 10px 20px;
+      border-bottom: 1px solid #f0f2f5;
+    }
+
+    .gold {
+      padding: 20px;
+      font-size: 16px;
+      color: #999;
+
+      .goldBalance {
+        display: inline;
+        font-size: 24px;
+        color: #666;
+        background: #f5f5f5;
+        padding: 5px 10px;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .userGoldBox {
+    padding: 10px;
+
+    .userGoldBtn {
+      border: none;
+      background-color: #f5f5f5;
+      color: #666;
+    }
+  }
+
+  .goldTable {
+    cursor: pointer;
+    margin-top: 20px;
+
+    .time {
+      font-size: 16px;
+      color: #999;
+    }
+
+    .description {
+      color: #999;
+    }
+
+    .underline {
+      color: #778087;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
